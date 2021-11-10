@@ -10,6 +10,9 @@
 <body>
 <?php include( "inc_header.php" );
 include( "inc_nav.php" ); ?>
+<?php
+//included a different php file in advisor page
+include ("quick.php");?>
 <section id="content">
     <h2>Welcome to The Advice Shop </h2>
 

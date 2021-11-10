@@ -13,6 +13,9 @@ include("inc_nav.php"); ?>
 <h2>Sample Advice</h2>
 <div id="content">
   <p>Here are some examples of some of the great advice we provide...</p>
+    <?php
+    //included a different php file in advisor page
+    include ("quick.php");?>
   <?php 
   $sql = "select * from quotes";
   $result = $dbh->query($sql);
@@ -21,7 +24,11 @@ include("inc_nav.php"); ?>
 	echo "<blockquote>\n<p><a href=\"quote.php?id=", $row['id'], "\"><em>&quot;", $row['quote'], "&quot;</em></a> - <strong>", $row['author'], "</strong>";
 	if ($row['year'] != "")
 		echo " (", $row['year'], ")";
+    #Else statement to catch error
+    else
+        echo "<p>Error</p>";
 	echo "</p>\n</blockquote>\n";
+
   }
   ?>
 </div>

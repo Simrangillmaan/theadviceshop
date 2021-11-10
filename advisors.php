@@ -11,8 +11,10 @@
 <?php include("inc_header.php"); ?>
 <?php include("inc_nav.php"); ?>
 
+
+<?php
 //included a different php file in advisor page
-<?php include ("quick.php");?>
+include ("quick.php");?>
 
 <h2>Advisors</h2>
 <div id="content">

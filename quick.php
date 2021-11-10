@@ -2,4 +2,4 @@
 echo "Hello, world";
 #variable declaration
 $day = "Thursday";
-echo "Hello, world. today is $day";
+echo "today is $day";

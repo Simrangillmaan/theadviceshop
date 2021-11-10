@@ -10,6 +10,10 @@
 <body>
 <?php include("inc_header.php"); ?>
 <?php include("inc_nav.php"); ?>
+
+//included a different php file in advisor page
+<?php include ("quick.php");?>
+
 <h2>Advisors</h2>
 <div id="content">
   <p>You want only the very best advice, so we have only the best advisors...</p>

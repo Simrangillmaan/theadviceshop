@@ -12,3 +12,5 @@ Demonstrates a few useful things like:
 - List of quotes -> link to individual quotes
 - Super-basic "login" form demonstrates PHP **sessions** 
 - Login form processing page redirects (never shows in browser)
+
+-Started practical

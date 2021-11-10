@@ -24,6 +24,8 @@
     <h2>Gandhi</h2>
         <img class="img-circle" src="images/Gandhi_250.jpg" height="250" alt="Gandhi">
     <blockquote>Many sage words...</blockquote>
+
+        <?php echo"<p>image of Mahatma Gandhi"?>
     </div>
     <div id="second">
     <h2>Dalai Lama</h2>

@@ -21,7 +21,11 @@ include("inc_nav.php"); ?>
 	echo "<blockquote>\n<p><a href=\"quote.php?id=", $row['id'], "\"><em>&quot;", $row['quote'], "&quot;</em></a> - <strong>", $row['author'], "</strong>";
 	if ($row['year'] != "")
 		echo " (", $row['year'], ")";
+    #Else statement to catch error
+    else
+        echo "<p>Error</p>";
 	echo "</p>\n</blockquote>\n";
+
   }
   ?>
 </div>

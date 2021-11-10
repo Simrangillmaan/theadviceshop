@@ -26,13 +26,21 @@ include( "inc_nav.php" ); ?>
     <h3>Services</h3>
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
-    <ul>
-        <li>Learning</li>
-        <li>Relationships</li>
-        <li>Technology</li>
-        <li>Coffee</li>
-        <li>and so much more...</li>
-    </ul>
+
+    //Demonstration of use of functions
+    <?php
+    function serviceList(){
+        echo "</p>Learning</p>";
+        echo "<p>Relationships</p>";
+        echo "<p>Technology</p>";
+        echo "<p>Coffee</p>";
+        echo "<p>and so much more...</p>";
+    }?>
+
+    <?php
+    serviceList();
+    ?>
+
 
 </section>
 <?php include( "inc_footer.php" ); ?>

@@ -17,6 +17,7 @@ include("inc_nav.php"); ?>
 <div id="content">
   <?php
   $sql = "select * from quotes where id=" . $_GET['id'];
+  $dbh ="";
   $result = $dbh->query($sql); // should only be one record
   $row = $result->fetch(PDO::FETCH_ASSOC);
   echo "<h2>Quote by ", $row['author'];

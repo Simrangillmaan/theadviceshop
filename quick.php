@@ -1,4 +1,5 @@
-
+<!doctype html>
+<html>
 <?php
 echo "Hello, world!!\n";
 #variable declaration
@@ -13,7 +14,8 @@ echo "today is $day\n";
 
 #added repetition in file;
 $advisors = array("Mahatma Gandhi", "Dalai Lama", "Vanilla Ice");
-for ($count = 0; $count<3; ++$count){
+for ($count = 0; $count<4; ++$count){
     echo "$count $advisors[$count]\n";
 }
-
+?>
+</html>
